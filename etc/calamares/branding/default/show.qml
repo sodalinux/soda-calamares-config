@@ -43,15 +43,6 @@ Presentation
         anchors.fill: parent
     	}
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Soda Linux"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
-    }
 
     Slide {
 
@@ -68,15 +59,6 @@ Presentation
         anchors.fill: parent
     	}
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "is installing..."
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
-    }
 
 
     // When this slideshow is loaded as a V1 slideshow, only
