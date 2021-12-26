@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
+        interval: 30000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -30,43 +30,31 @@ Presentation
 
     Slide {
 
-    anchors.fill: parent
-    anchors.verticalCenterOffset: 0
-
-    Image {
-        id: background1
-        source: "soda-installing-1.png"
-        width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
-        anchors.fill: parent
-    	}
+		Image {
+			id: background1
+			source: "soda-installing-1.png"
+			width: parent.width; height: parent.height
+			horizontalAlignment: Image.AlignCenter
+			verticalAlignment: Image.AlignTop
+			fillMode: Image.Stretch
+			anchors.fill: parent
+		}
+    }
 
 
     Slide {
 
-    anchors.fill: parent
-    anchors.verticalCenterOffset: 0
-
-    Image {
-        id: background2
-        source: "soda-installing-2.png"
-        width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
-        anchors.fill: parent
-    	}
-
-
-
-    // When this slideshow is loaded as a V1 slideshow, only
-    // activatedInCalamares is set, which starts the timer (see above).
-    //
-    // In V2, also the onActivate() and onLeave() methods are called.
-    // These example functions log a message (and re-start the slides
-    // from the first).
+		Image {
+			id: background2
+			source: "soda-installing-2.png"
+			width: parent.width; height: parent.height
+			horizontalAlignment: Image.AlignCenter
+			verticalAlignment: Image.AlignTop
+			fillMode: Image.Stretch
+			anchors.fill: parent
+		}
+   }
+   
     function onActivate() {
         console.log("QML Component (default slideshow) activated");
         presentation.currentSlide = 0;
