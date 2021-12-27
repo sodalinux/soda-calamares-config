@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         Soda Linux
     shortProductName:    Soda 
-    version:             2021.12.24
-    shortVersion:        2020.12.24
+    version:             2021.12.26
+    shortVersion:        2021.12.26
     versionedName:       Soda Linux 
     shortVersionedName:  Soda 
     bootloaderEntryName: Soda
