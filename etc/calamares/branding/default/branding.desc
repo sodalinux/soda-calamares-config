@@ -123,11 +123,15 @@ navigation: widget
 strings:
     productName:         Soda Linux
     shortProductName:    Soda 
-    version:             2021.12.26
-    shortVersion:        2021.12.26
+    version:             2022.03.01
+    shortVersion:        2021.03.01
     versionedName:       Soda Linux 
     shortVersionedName:  Soda 
     bootloaderEntryName: Soda
+    productUrl:          https://sodalinux.org
+    supportUrl:          https://sodalinux.org#discord
+    knownIssuesUrl:      https://github.com/sodalinux/sodalinux-iso/issues
+    releaseNotesUrl:     https://github.com/sodalinux/soda-release/releases/latest
 
 # These images are loaded from the branding module directory.
 #
@@ -175,8 +179,8 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
+   sidebarBackground:    "#EDEDED"
+   sidebarText:          "#000000"
    sidebarTextSelect:    "#FFFFFF"
    sidebarTextHighlight: "#DB2727"
 
